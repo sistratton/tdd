@@ -72,6 +72,10 @@ public class Grouper {
 
     }
 
+
+
+    // These probably should be private methods and tested through reflection
+
     // Turn Skills List into a List of one character strings (can't creat a 'List' of chars)
     public List<String> turnSkillsIntoArray(){
 
