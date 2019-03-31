@@ -18,3 +18,7 @@ The app was build using `TDD` (Test Driven Development) and red/green refactorin
 A 'Domain' test (sometimes called a 'Component' test) has also been created. If an API had been created an Integration test would also be appropriate.
 
 Please run the tests or the `GrouperApp` to see everything working.
+
+## Future Improvements
+
+*If I had more time:* Even though this is a very simple app, `SOLID` principles need to be refactored in. Using Interfaces to manage dependency injection into objects would be applied if this was a larger app also.
