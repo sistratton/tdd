@@ -41,7 +41,11 @@ public class Grouper {
 
     }
 
-    // Function to count the number of student groups from a skills list
+
+    /**
+     * Method to count the possible number of student groups that can be created from a list of skills
+     * @return the number of student groups (int)
+     */
     public int countGroups() {
 
         if (skills.length() < 5) {
