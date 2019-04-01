@@ -53,7 +53,9 @@ public class HelperFunctions {
         boolean inArray = false;
 
         for (String string : stringArray) {
-            if (string == checkString) {
+
+            if (string.contains(checkString)) {
+
                 inArray = true;
             }
         }

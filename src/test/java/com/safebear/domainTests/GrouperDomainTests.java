@@ -32,6 +32,20 @@ public class GrouperDomainTests
 
     }
 
+    @Test
+    public void countGroupsNegativeTest()
+    {
+        // Test data
+        String skills = "aaaaa";
+
+        // Initialise Grouper and HelperFunctions objects
+        HelperFunctions helpers = new HelperFunctions();
+        Grouper grouper = new Grouper(skills, helpers);
+
+        Assert.assertEquals(0, grouper.countGroups() );
+
+    }
+
     /*
      * NOTE: Also need some boundary and negative tests for all of the above. Adding later.
      */
